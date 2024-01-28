@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { CommonModule } from '@angular/common';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 
 
 @Component({
@@ -24,7 +24,7 @@ import { Housinglocation } from '../housinglocation';
 export class HomeComponent {
 
   readonly baseUrl = 'https://angular.dev/assets/tutorials/common';
-  housingLocation: Housinglocation = {
+  housingLocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
